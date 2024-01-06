@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="TopSQLCounter:jar">
+    <output-path>$PROJECT_DIR$/../../localhost/plugins</output-path>
+    <root id="archive" name="TopSQLCounter.jar">
+      <element id="module-output" name="TopSQLCounter" />
+    </root>
+  </artifact>
+</component>

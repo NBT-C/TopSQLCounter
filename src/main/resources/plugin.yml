@@ -1,0 +1,7 @@
+name: TopSQLCounter
+version: '${project.version}'
+main: nbtc.topsqlcounter.TopSQLCounter
+softdepend: [HolographicDisplays]
+commands:
+  topadd:
+
