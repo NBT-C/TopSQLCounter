@@ -27,7 +27,7 @@ public class TopAddCommand implements CommandExecutor {
         int count = Integer.parseInt(args[5]);
 
         if (count == 0){
-            TextHelper.sendPrefixedMessage(player, "&cFuck yourself nigger, this is not a fucking number");
+            TextHelper.sendPrefixedMessage(player, "&cNot a number");
             return false;
         }
 
