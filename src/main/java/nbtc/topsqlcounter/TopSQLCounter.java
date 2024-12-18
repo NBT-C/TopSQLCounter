@@ -9,14 +9,11 @@ import nbtc.topsqlcounter.storage.connector.MySQLConnector;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
+@Getter
 public final class TopSQLCounter extends JavaPlugin {
-    @Getter
     private static TopSQLCounter instance;
-    @Getter
     private TopManager topManager;
-    @Getter
     private ConfigYML configYML;
-    @Getter
     private HolographicDisplaysAPI holoApi;
     private void init(){
         instance = this;
