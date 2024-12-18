@@ -11,7 +11,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 @Getter
 public final class TopSQLCounter extends JavaPlugin {
-    private static TopSQLCounter instance;
+    private static @Getter TopSQLCounter instance;
     private TopManager topManager;
     private ConfigYML configYML;
     private HolographicDisplaysAPI holoApi;
